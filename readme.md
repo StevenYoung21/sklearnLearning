@@ -18,3 +18,16 @@
 ### 缺失值
 
 ### 编码与哑变量
+
+    名义变量：取值相互独立
+    有序变量：取值不完全独立
+    有距变量：取值之间有联系，可以互相计算
+
+    编码
+    1.preprocessing.LabelEncoder：标签专用，能够将分类转换为分类数值
+    2.preprocessing.OrdinalEncoder：特征专用，能够将分类特征转换为分类数值
+
+    哑变量：
+    1.preprocessing.OneHotEncoder：独热编码，创建哑变量
+    2.get_feature_names()： 获取编码的列名
+    
