@@ -30,4 +30,8 @@
     哑变量：
     1.preprocessing.OneHotEncoder：独热编码，创建哑变量
     2.get_feature_names()： 获取编码的列名
+
+### 二值化与分段
+
+    
     
