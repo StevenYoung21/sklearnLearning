@@ -3,9 +3,8 @@ import pandas as pd
 import numpy as np
 
 ## 读取 T-P-G 数据
-# data = pd.read_excel(r'D:\Desk\nonlinerFitData\Al-Ti-V-Omega_20211126\VV2-1400-2200K.xlsx')
-
-data = pd.read_excel('./VV2-1400-2200K.xlsx')
+# data = pd.read_excel(r'D:\Desk\nonlinerFitData\Al-Ti-V-Omega_20211126\VV2-1400-2200K.xlsx')   ## 绝对路径, 指定数据表的文件路径
+data = pd.read_excel(r'./VV2-1400-2200K.xlsx')      ## 相对路径, 数据表格在当前目录下
 
 ## 定义拟合函数的表达式, xdata 为自变量数据, 这里 x0 是表格中的第一列 温度数据, x1 是表格的第二列 压力数据
 def func(xdata,a,b,c,d,e,f):  
