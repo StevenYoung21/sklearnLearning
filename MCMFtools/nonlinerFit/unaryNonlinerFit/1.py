@@ -2,6 +2,8 @@ from scipy.optimize import curve_fit
 import pandas as pd
 import numpy as np
 
+
+# data = pd.read_excel(r'D:\Desk\nonlinerFitData\Cu-Fcc.xlsx') 
 data = pd.read_excel(r'.\Cu-Fcc.xlsx')
 
 # np.seterr(divide='ignore', invalid='ignore')
